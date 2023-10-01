@@ -1,0 +1,65 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgres"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       Int             @id @default(autoincrement())
+  username String          @unique
+  email    String          @unique
+  password String
+  userImg  String?
+  Fridge   ProductOnUser[]
+}
+
+model Product {
+  id              Int               @id @default(autoincrement())
+  productname     String
+  portionSize     Int
+  ProductOnRecipe ProductOnRecipe[]
+  Fridge          ProductOnUser[]
+}
+
+model ProductOnUser {
+  id           Int     @id @default(autoincrement())
+  user         User    @relation(fields: [userId], references: [id])
+  userId       Int
+  product      Product @relation(fields: [productId], references: [id])
+  productId    Int
+  productCount Int
+}
+
+model Recipe {
+  id           Int               @id @default(autoincrement())
+  recipename   String
+  recipeImg    String?
+  description  String
+  instructions String
+  prepTime     Int?
+  serves       Int?
+  category     Category[]
+  ingredients  ProductOnRecipe[]
+}
+
+model Category {
+  id           Int      @id @default(autoincrement())
+  categoryname String
+  categoryImg  String?
+  recipe       Recipe[]
+}
+
+model ProductOnRecipe {
+  id          Int     @id @default(autoincrement())
+  recipe      Recipe  @relation(fields: [recipeId], references: [id])
+  recipeId    Int
+  product     Product @relation(fields: [productId], references: [id])
+  productId   Int
+  recipeCount Int
+}

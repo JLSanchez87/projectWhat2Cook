@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "categoryname": "Indian"
+  },
+  {
+    "id": 2,
+    "categoryname": "Italian"
+  },
+  {
+    "id": 3,
+    "categoryname": "Asian"
+  },
+  {
+    "id": 4,
+    "categoryname": "Mexican"
+  },
+  {
+    "id": 5,
+    "categoryname": "South-East Asian"
+  },
+  {
+    "id": 6,
+    "categoryname": "Mediterranean"
+  },
+  {
+    "id": 7,
+    "categoryname": "American"
+  },
+  {
+    "id": 8,
+    "categoryname": "Latin American"
+  },
+  {
+    "id": 9,
+    "categoryname": "Comfort Food"
+  },
+  {
+    "id": 10,
+    "categoryname": "Vegetarian"
+  },
+  {
+    "id": 11,
+    "categoryname": "Breakfast"
+  },
+  {
+    "id": 12,
+    "categoryname": "Lunch"
+  },
+  {
+    "id": 13,
+    "categoryname": "Dinner"
+  },
+  {
+    "id": 14,
+    "categoryname": "Dessert"
+  },
+  {
+    "id": 15,
+    "categoryname": "Middle-Eastern"
+  },
+  {
+    "id": 16,
+    "categoryname": "African"
+  }
+]

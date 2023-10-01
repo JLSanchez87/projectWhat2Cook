@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "recipename": "Pasta Carbonara",
+    "recipeImg": "https://images.pexels.com/photos/998246/pexels-photo-998246.jpeg",
+    "description": "Classic Italian pasta dish with eggs, cheese, and bacon.",
+    "instructions": "Cook pasta. Mix cooked pasta with beaten eggs, grated cheese, and cooked bacon. Serve immediately.",
+    "prepTime": 15,
+    "serves": 4,
+    "category": { "connect": [{ "id": 2 }] }
+  },
+  {
+    "id": 2,
+    "recipename": "Stir-Fried Noodles",
+    "recipeImg": "https://images.pexels.com/photos/9045156/pexels-photo-9045156.jpeg",
+    "description": "Asian-style stir-fried noodles with vegetables and your choice of protein.",
+    "instructions": "Cook noodles. Stir-fry noodles with chopped vegetables and your choice of protein. Season with soy sauce. Serve hot.",
+    "prepTime": 20,
+    "serves": 3,
+    "category": { "connect": [{ "id": 3 }] }
+  },
+  {
+    "id": 3,
+    "recipename": "Tacos",
+    "recipeImg": "https://images.pexels.com/photos/4958774/pexels-photo-4958774.jpeg",
+    "description": "Mexican-style tacos filled with seasoned meat and toppings.",
+    "instructions": "Cook and season meat. Fill tortillas with cooked meat and desired toppings like lettuce, cheese, and salsa. Enjoy!",
+    "prepTime": 30,
+    "serves": 4,
+    "category": { "connect": [{ "id": 4 }] }
+  },
+  {
+    "id": 4,
+    "recipename": "Greek Salad",
+    "recipeImg": "https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg",
+    "description": "Refreshing Mediterranean salad with fresh veggies and feta cheese.",
+    "instructions": "Chop vegetables and mix with olives and feta cheese. Drizzle with olive oil and lemon juice. Toss and serve.",
+    "prepTime": 15,
+    "serves": 2,
+    "category": { "connect": [{ "id": 6 }, { "id": 10 }] }
+  },
+  {
+    "id": 5,
+    "recipename": "Macaroni and Cheese",
+    "recipeImg": "https://images.pexels.com/photos/806357/pexels-photo-806357.jpeg",
+    "description": "Classic American comfort food made with macaroni and a creamy cheese sauce.",
+    "instructions": "Cook macaroni. Make a cheese sauce with milk, butter, and cheddar cheese. Mix with cooked macaroni and bake until golden.",
+    "prepTime": 25,
+    "serves": 6,
+    "category": { "connect": [{ "id": 7 }] }
+  },
+  {
+    "id": 6,
+    "recipename": "Chicken Stir-Fry",
+    "recipeImg": "https://www.wellplated.com/wp-content/uploads/2019/07/Japanese-Teriyaki-Chicken-Stir-Fry-Recipe.jpg",
+    "description": "Quick and flavorful chicken stir-fry with vegetables.",
+    "instructions": "Sauté chicken and vegetables. Add stir-fry sauce. Serve with rice.",
+    "prepTime": 20,
+    "serves": 3,
+    "category": { "connect": [{ "id": 3 }] }
+  },
+  {
+    "id": 7,
+    "recipename": "Caprese Salad",
+    "recipeImg": "https://images.pexels.com/photos/13241736/pexels-photo-13241736.jpeg",
+    "description": "Refreshing Italian salad with tomatoes, mozzarella, and basil.",
+    "instructions": "Slice tomatoes and mozzarella. Arrange with basil leaves. Drizzle with olive oil and balsamic vinegar.",
+    "prepTime": 10,
+    "serves": 2,
+    "category": { "connect": [{ "id": 2 }, { "id": 10 }] }
+  },
+  {
+    "id": 8,
+    "recipename": "Margherita Pizza",
+    "recipeImg": "https://images.pexels.com/photos/6605220/pexels-photo-6605220.jpeg",
+    "description": "Classic Italian pizza with tomatoes, mozzarella, and basil.",
+    "instructions": "Spread tomato sauce on pizza dough. Top with mozzarella cheese, sliced tomatoes, and fresh basil leaves. Bake until crust is golden and cheese is melted.",
+    "prepTime": 15,
+    "serves": 2,
+    "category": { "connect": [{ "id": 2 }, { "id": 10 }] }
+  },
+  {
+    "id": 9,
+    "recipename": "Bruschetta",
+    "recipeImg": "https://images.pexels.com/photos/7432991/pexels-photo-7432991.jpeg",
+    "description": "Classic Italian appetizer with diced tomatoes, garlic, and basil on toasted bread.",
+    "instructions": "Toast slices of bread. Rub with garlic. Top with diced tomatoes, olive oil, and fresh basil. Season with salt and pepper.",
+    "prepTime": 10,
+    "serves": 4,
+    "category": { "connect": [{ "id": 2 }, { "id": 10 }] }
+  },
+  {
+    "id": 10,
+    "recipename": "Fried Rice",
+    "recipeImg": "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg",
+    "description": "Stir-fried rice with vegetables, soy sauce, and scrambled eggs or diced chicken.",
+    "instructions": "Stir-fry cooked rice with vegetables, soy sauce, and scrambled eggs or diced chicken. Season with salt and pepper to taste.",
+    "prepTime": 20,
+    "serves": 4,
+    "category": { "connect": [{ "id": 3 }] }
+  },
+  {
+    "id": 11,
+    "recipename": "Teriyaki Salmon",
+    "recipeImg": "https://www.naturalhealthyliving.net/wp-content/uploads/2012/09/salmon-teriyaki.jpg",
+    "description": "Grilled or baked salmon marinated in a teriyaki sauce with soy sauce, honey, and ginger.",
+    "instructions": "Marinate salmon in a mixture of soy sauce, honey, and ginger. Grill or bake until cooked through. Serve with extra teriyaki sauce if desired.",
+    "prepTime": 15,
+    "serves": 2,
+    "category": { "connect": [{ "id": 3 }] }
+  },
+  {
+    "id": 12,
+    "recipename": "Guacamole",
+    "recipeImg": "https://images.pexels.com/photos/5737580/pexels-photo-5737580.jpeg",
+    "description": "Mashed avocados mixed with diced tomatoes, onions, lime juice, and cilantro. Served with tortilla chips.",
+    "instructions": "Mash avocados and mix with diced tomatoes, onions, lime juice, and cilantro. Season with salt and pepper to taste. Serve with tortilla chips.",
+    "prepTime": 15,
+    "serves": 4,
+    "category": { "connect": [{ "id": 4 }, { "id": 10 }] }
+  },
+  {
+    "id": 13,
+    "recipename": "Rice and Beans",
+    "recipeImg": "https://images.pexels.com/photos/8992843/pexels-photo-8992843.jpeg",
+    "description": "Combination of cooked rice and canned beans seasoned with spices like cumin and chili powder.",
+    "instructions": "Combine cooked rice and canned beans. Season with spices like cumin and chili powder. Heat until warmed through. Serve as a side dish or main course.",
+    "prepTime": 20,
+    "serves": 4,
+    "category": { "connect": [{ "id": 8 }, { "id": 10 }] }
+  },
+  {
+    "id": 14,
+    "recipename": "Hummus Wrap",
+    "recipeImg": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Hummus-Veggie-Wrap-Up_EXPS_CWAS18_106657_B04_05__4b.jpg",
+    "description": "Spread hummus on a tortilla, add sliced veggies, and roll up into a wrap.",
+    "instructions": "Spread hummus evenly on a tortilla. Layer with sliced veggies of your choice such as cucumbers, bell peppers, and carrots. Roll up the tortilla tightly to create a wrap. Cut in half if desired and serve.",
+    "prepTime": 10,
+    "serves": 1,
+    "category": { "connect": [{ "id": 6 }, { "id": 10 }] }
+  },
+  {
+    "id": 15,
+    "recipename": "Grilled Chicken with Tzatziki",
+    "recipeImg": "https://www.modernhoney.com/wp-content/uploads/2017/04/DSC_0210-1-copy.jpg",
+    "description": "Marinated chicken grilled to perfection and served with homemade tzatziki sauce.",
+    "instructions": "Marinate chicken in a mixture of olive oil, herbs (such as oregano and thyme), garlic, salt, and pepper. Grill chicken until cooked through. Serve with homemade tzatziki sauce.",
+    "prepTime": 30,
+    "serves": 2,
+    "category": { "connect": [{ "id": 6 }] }
+  },
+  {
+    "id": 16,
+    "recipename": "Chicken Pot Pie",
+    "recipeImg": "http://www.auntbeesrecipes.com/wp-content/uploads/2014/04/Chicken-Pot-Pie-Slice-Missing-New.jpg",
+    "description": "A comforting dish with a filling of cooked chicken, frozen vegetables, and a creamy sauce, topped with a golden pie crust.",
+    "instructions": "In a skillet, cook diced chicken until no longer pink. Add frozen mixed vegetables and cook until heated through. Prepare a creamy sauce with ingredients like butter, flour, milk, and chicken broth. Combine the sauce with the chicken and vegetables. Pour the mixture into a pie dish, top with a pie crust, and bake in the oven until the crust is golden and the filling is bubbling.",
+    "prepTime": 45,
+    "serves": 4,
+    "category": { "connect": [{ "id": 9 }] }
+  },
+  {
+    "id": 17,
+    "recipename": "Homemade Burgers",
+    "recipeImg": "https://images.pexels.com/photos/5908059/pexels-photo-5908059.jpeg",
+    "description": "Juicy ground beef patties grilled or cooked in a pan, served on buns with a variety of toppings.",
+    "instructions": "Season ground beef with salt and pepper, then shape into burger patties. Grill the patties over medium heat until cooked to your desired level of doneness. Toast burger buns on the grill. Assemble the burgers with lettuce, tomato slices, cheese, onions, and condiments of your choice. Serve the burgers with side dishes like fries or salad.",
+    "prepTime": 30,
+    "serves": 4,
+    "category": { "connect": [{ "id": 7 }] }
+  },
+  {
+    "id": 18,
+    "recipename": "Chicken Adobo",
+    "recipeImg": "https://norecipes.com/wp-content/uploads/2017/12/chicken-adobo_008.jpg",
+    "description": "A classic Filipino dish featuring chicken simmered in a flavorful mixture of soy sauce, vinegar, and spices.",
+    "instructions": "In a pot, combine chicken pieces, soy sauce, vinegar, garlic, bay leaves, black peppercorns, and water. Bring to a boil, then lower the heat and simmer until the chicken is tender and fully cooked. Remove the chicken from the pot. For the sauce, you can reduce and thicken the liquid or strain it to remove solids. Serve the chicken and sauce over steamed rice.",
+    "prepTime": 20,
+    "serves": 4,
+    "category": { "connect": [{ "id": 5 }] }
+  },
+  {
+    "id": 19,
+    "recipename": "Chicken Curry",
+    "recipeImg": "https://images.pexels.com/photos/6113813/pexels-photo-6113813.jpeg",
+    "description": "A flavorful and aromatic Indian chicken curry made with a blend of spices, tomatoes, and onions.",
+    "instructions": "In a pan, sauté onions and spices until fragrant. Add tomatoes and cook until they soften. Add chicken pieces and cook until browned. Pour in coconut milk or yogurt and simmer until the chicken is cooked through. Garnish with fresh cilantro and serve with rice or naan.",
+    "prepTime": 25,
+    "serves": 4,
+    "category": { "connect": [{ "id": 1 }] }
+  },
+  {
+    "id": 20,
+    "recipename": "Vegetable Biryani",
+    "recipeImg": "https://static.independent.co.uk/2021/03/09/10/vegetarian-biryani-090321.jpg",
+    "description": "A fragrant and flavorful Indian rice dish made with basmati rice, mixed vegetables, and aromatic spices.",
+    "instructions": "Sauté spices, onions, and mixed vegetables. Add soaked basmati rice and water. Cook until the rice is tender. Layer the rice and vegetable mixture, and steam until fully cooked. Garnish with fried onions, cashews, and fresh herbs.",
+    "prepTime": 30,
+    "serves": 6,
+    "category": { "connect": [{ "id": 1 }, { "id": 10 }] }
+  },
+  {
+    "id": 21,
+    "recipename": "Chana Masala",
+    "recipeImg": "https://images.pexels.com/photos/9287039/pexels-photo-9287039.jpeg",
+    "description": "A popular North Indian dish made with chickpeas cooked in a spicy tomato and onion gravy.",
+    "instructions": "Sauté onions and spices until golden. Add tomatoes and cook until they break down. Add chickpeas and cook in the tomato gravy. Garnish with fresh cilantro and serve with rice or naan.",
+    "prepTime": 25,
+    "serves": 4,
+    "category": { "connect": [{ "id": 1 }, { "id": 10 }] }
+  },
+  {
+    "id": 22,
+    "recipename": "Flour Tortilla with Olive Oil",
+    "recipeImg": "https://www.mexicanplease.com/wp-content/uploads/2017/11/flour-tortillas-after-cooking-side-angle.jpg",
+    "description": "A quick and easy snack or appetizer made with flour tortillas and a touch of olive oil.",
+    "instructions": "1. Heat a non-stick pan over medium-high heat. \n2. Brush one side of the flour tortilla with olive oil. \n3. Place the tortilla, oiled side down, in the hot pan. \n4. Cook for about 1-2 minutes until it's golden and crispy. \n5. Flip it over and cook the other side for another 1-2 minutes. \n6. Remove from the pan, cut into wedges, and serve as a snack or with your favorite dip.",
+    "prepTime": 5,
+    "serves": 2,
+    "category": { "connect": [{ "id": 10 }] }
+  },
+  {
+    "id": 23,
+    "recipename": "Rice and Soy Sauce Bowl",
+    "recipeImg": "https://omnivorescookbook.com/wp-content/uploads/2020/02/2002_Soy-Sauce-Fried-Rice-Ingredient_550-500x375.jpg",
+    "description": "A simple and delicious rice dish with a savory soy sauce flavor.",
+    "instructions": "1. Cook the rice according to package instructions. \n2. Once cooked, fluff the rice with a fork. \n3. Drizzle soy sauce over the cooked rice and stir to evenly distribute. \n4. Serve as a simple and tasty side dish.",
+    "prepTime": 20,
+    "serves": 4,
+    "category": { "connect": [{ "id": 10 }] }
+  },
+  {
+    "id": 24,
+    "recipename": "Spaghetti with Canned Tuna",
+    "recipeImg": "https://assets.bonappetit.com/photos/59dbce9af157aa02e71ad169/4:3/w_3499,h_2624,c_limit/Basically_TunaPasta.jpg",
+    "description": "A quick and flavorful pasta dish made with spaghetti and canned tuna.",
+    "instructions": "1. Cook the spaghetti in a pot of boiling water according to package instructions until al dente. \n2. While the pasta is cooking, drain the canned tuna. \n3. Once the pasta is cooked, drain it and return it to the pot. \n4. Add the canned tuna to the pasta and toss them together. \n5. Serve with a sprinkle of grated cheese or a drizzle of olive oil if desired.",
+    "prepTime": 25,
+    "serves": 4,
+    "category": { "connect": [{ "id": 10 }] }
+  },
+  {
+    "id": 25,
+    "recipename": "Cheesy Baked Potatoes",
+    "recipeImg": "https://www.wandercooks.com/wp-content/uploads/2022/05/australian-potato-bake-4.jpg",
+    "description": "A comforting and cheesy side dish made with baked potatoes.",
+    "instructions": "1. Preheat your oven to 375°F (190°C). \n2. Scrub and wash the potatoes, then pierce them with a fork a few times. \n3. Bake the potatoes directly on the oven rack for about 45-60 minutes or until they are tender when pierced with a fork. \n4. Slice open the cooked potatoes, fluff the insides with a fork, and top with grated cheese. \n5. Return the potatoes to the oven for a few more minutes until the cheese is melted and bubbly. \n6. Serve hot with your choice of toppings such as sour cream, chives, or bacon bits.",
+    "prepTime": 15,
+    "serves": 4,
+    "category": { "connect": [{ "id": 10 }, { "id": 13 }, { "id": 9 }] }
+  },
+  {
+    "id": 26,
+    "recipename": "Garlic Butter Shrimp Pasta",
+    "recipeImg": "https://thematbakh.com/wp-content/uploads/2021/07/garlic-shrimp-pasta-10.jpg",
+    "description": "A flavorful and indulgent pasta dish featuring garlic butter shrimp.",
+    "instructions": "1. Cook the pasta in a pot of boiling salted water according to package instructions. \n2. While the pasta is cooking, heat a pan over medium heat and add butter. \n3. Add minced garlic to the pan and sauté for a minute until fragrant. \n4. Add shrimp and cook until they turn pink, about 2-3 minutes per side. \n5. Drain the cooked pasta and add it to the pan with the shrimp. \n6. Toss everything together, squeeze fresh lemon juice over it, and sprinkle with chopped parsley. \n7. Serve hot with a sprinkle of grated Parmesan cheese if desired.",
+    "prepTime": 25,
+    "serves": 4,
+    "category": { "connect": [{ "id": 2 }] }
+  },
+  {
+    "id": 27,
+    "recipename": "Olive Oil Roasted Vegetables",
+    "recipeImg": "https://static01.nyt.com/images/2015/09/23/dining/23ROASTEDVEGETABLES/23ROASTEDVEGETABLES-superJumbo.jpg",
+    "description": "A healthy and colorful medley of roasted vegetables with a drizzle of olive oil.",
+    "instructions": "1. Preheat your oven to 425°F (220°C). \n2. Wash and chop your favorite vegetables, such as bell peppers, carrots, zucchini, and broccoli. \n3. Toss the vegetables with olive oil, salt, pepper, and any preferred seasonings. \n4. Spread the vegetables in a single layer on a baking sheet. \n5. Roast in the preheated oven for 20-25 minutes or until they are tender and slightly caramelized. \n6. Serve as a side dish or add them to salads, wraps, or bowls.",
+    "prepTime": 15,
+    "serves": 4,
+    "category": { "connect": [{ "id": 13 }] }
+  },
+  {
+    "id": 28,
+    "recipename": "Tuna Salad Sandwich",
+    "recipeImg": "https://www.allrecipes.com/thmb/zjRwL5yyBrIIirnMjPEpm4xUXQU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/98579-barbies-tuna-salad-DDMFS-4x3-f035868432e14a479ca4bc349011bf19.jpg",
+    "description": "A classic and satisfying tuna salad sandwich.",
+    "instructions": "1. In a bowl, mix together canned tuna, mayonnaise, chopped celery, diced red onion, and a squeeze of lemon juice. \n2. Season with salt and pepper to taste. \n3. Spread the tuna salad mixture on slices of bread. \n4. Add lettuce, tomato slices, and any other preferred toppings. \n5. Top with another slice of bread to make a sandwich. \n6. Slice in half and serve.",
+    "prepTime": 15,
+    "serves": 2,
+    "category": { "connect": [{ "id": 12 }] }
+  },
+  {
+    "id": 29,
+    "recipename": "Cilantro Lime Rice",
+    "recipeImg": "https://www.simplyrecipes.com/thmb/cnd8eAUkhnxJWSoAjBDtmB2JzKE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2016__09__cilantro-lime-rice-horiz-a2-2000-86dcc93372164caa862e1c131f15dafb.jpg",
+    "description": "A fragrant and zesty rice dish with cilantro and lime.",
+    "instructions": "1. Cook rice according to package instructions. \n2. While the rice is hot, fluff it with a fork and add freshly chopped cilantro and the juice of one lime. \n3. Mix well to evenly distribute the flavors. \n4. Serve as a flavorful side dish to complement your main course.",
+    "prepTime": 20,
+    "serves": 4,
+    "category": { "connect": [{ "id": 3 }] }
+  }
+]
